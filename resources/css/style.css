@@ -8,6 +8,7 @@ body{
 
 .jumbotron{
     margin-top:5%;
+    opacity: 0.8;
     text-align: center;
 }
 
