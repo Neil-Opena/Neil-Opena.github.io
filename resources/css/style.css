@@ -5,3 +5,23 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+.jumbotron{
+    margin-top:5%;
+    text-align: center;
+}
+
+.display-4{
+    color: #636e72;
+    font-weight:bold;
+}
+
+a .linkedin{
+    color: #0077B5;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+a .linkedin:hover{
+    color:#0babff;
+}
