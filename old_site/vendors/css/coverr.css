@@ -1,0 +1,44 @@
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+    position:fixed;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+    position:fixed;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+    position:fixed;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    position:fixed;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    position:fixed;
+}
+
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    position:fixed;
+}
+.video-container video.fillWidth {
+    width: 100%;
+    position:fixed;
+}

@@ -1,0 +1,156 @@
+/*Added for background fix*/
+@media only screen and (max-width: 1395px){
+	.video-container video{
+		zoom:117%;
+		background-position:center;
+	}
+}
+
+@media only screen and (max-height:700px){
+	html,
+	body{font-size:18px;}
+}
+
+@media only screen and (max-width: 1200px){
+	.video-container video {zoom:125%;}
+
+	html,
+	body{font-size: 18px;}
+
+	section, footer{
+		height: 95vh;
+		width: 90%;
+	}
+
+	h2{
+		font-size: 270%;
+		width:50%;
+		margin-left: 30%;
+	}
+
+	.section-about-me img{height:70vh;}
+
+	.map{height:15vh;}
+
+	.education-stony{
+		height:50vh;
+		width:90%;
+		margin-left:10%;
+	}
+
+	.education-stony img{height:70px;}
+
+	.education-stony h3{
+		margin-top:12px;
+		margin-bottom:2px;
+	}
+
+	.skillbar{margin-left:5%;}
+
+	.numbers{margin-left:10%;}
+
+	.typing{margin-left:5%;}
+
+	.projects img{
+		height:220px;
+		width:220px;
+	}
+
+	.ribbon{width:20%;}
+
+	.contact-message{margin-left:17%;}
+
+	form{
+		width:70%;
+		margin-left:20%;
+	}
+
+	.footer-elements{margin-left:15%;}
+
+}
+
+/*Added for background fix*/
+@media only screen and (max-width: 1170px){
+	.video-container video{zoom:135%;}
+}
+
+@media only screen and (max-width: 1023px){
+	.video-container video{zoom:140%;}
+	html,
+	body{font-size: 15px;}
+
+	.main-screen p{
+		text-shadow: none;
+	}
+
+	.text-container{height:70vh;}
+
+	.map{display:none;}
+
+	.section-about-me img{
+		height:55vh;
+	}
+
+	.ribbon{
+		width:25%;
+		top:8%;
+		left:15%;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.main-nav,
+	.nav-sections{
+		display:none;
+	}
+
+	html,
+	body{font-size: 13px;}
+
+	.text-container p{
+		padding-bottom:10px;
+		text-align:center;
+		word-spacing: 1px;
+		line-height: 20px;
+	}
+
+	.section-about-me img{
+		height:35vh;
+	}
+
+	.projects{
+	width:100%;
+	margin-left:5%;
+	}
+
+	.projects img{
+		height:110px;
+		width:110px;
+	}
+
+	.ribbon{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	html,
+	body{font-size: 11px;}
+
+	.text-container{
+		height:45vh;
+		margin-left:5%;
+	}
+
+	.section-about-me img{
+		margin-left:35%;
+	}
+
+	.numbers-text{
+		font-weight:500;
+		text-shadow: 0 1px 0px #ecf0f1;
+		text-shadow: 0 -1px 0px #ecf0f1;
+	}
+
+
+}
