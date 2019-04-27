@@ -21,7 +21,6 @@ p {
 
 .parallax-container {
   min-height: 100vh;
-  line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
@@ -30,10 +29,10 @@ p {
   }
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
+  /* .parallax-container .section { */
+    /* position: absolute; */
+    /* top: 40%; */
+  /* } */
   #index-banner .section {
     top: 10%;
   }
