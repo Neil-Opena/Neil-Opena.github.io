@@ -58,3 +58,15 @@ footer.page-footer {
 .text-shadow{
   text-shadow: 2px 2px grey;
 }
+
+.text-border{
+  border: 2p
+}
+
+.no-pad{
+  padding:0 !important;
+}
+
+.no-margin-bot{
+  margin-bottom: 0;
+}
