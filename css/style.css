@@ -74,3 +74,39 @@ footer.page-footer {
 li{
   list-style: none;
 }
+
+.github{
+  color:#6e5494;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.github:hover{
+  color:#9984b9;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.linkedin{
+  color:#0077b5;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.linkedin:hover{
+  color:#0babff;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.fa-square{
+  color:white;
+}
