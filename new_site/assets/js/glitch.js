@@ -9,14 +9,20 @@
  * http://www.codrops.com
  */
 {
-	const glitch_body = document.getElementById('glitch_body')
-	setTimeout(() => glitch_body.classList.add('render'), 60);
+	const glitch_body_class = document.getElementsByClassName('glitch_body')
+
+	for(var i = 0; i < glitch_body_class.length; i++){
+		setTimeout(() => glitch_body_class[i].classList.add('render'), 60);
+	}
+
 	const navdemos = Array.from(document.querySelectorAll('nav.demos > .demo'));
 	const total = navdemos.length;
 	const current = navdemos.findIndex(el => el.classList.contains('demo--current'));
 	const navigate = (linkEl) => {
-		glitch_body.classList.remove('render');
-		glitch_body.addEventListener('transitionend', () => window.location = linkEl.href);
+		for(var i = 0; i < glitch_body_class.length; i++){
+			glitch_body_class[i].classList.remove('render');
+			glitch_body_class[i].addEventListener('transitionend', () => window.location = linkEl.href);
+		}
 	};
 	navdemos.forEach(link => link.addEventListener('click', (ev) => {
 		ev.preventDefault();
@@ -36,8 +42,10 @@
 		}
 		navigate(linkEl);
 	});
-	imagesLoaded('.glitch__img', { background: true }, () => {
-		glitch_body.classList.remove('loading');
-		glitch_body.classList.add('imgloaded');
+	imagesLoaded('.glitch__img_1', { background: true }, () => {
+		for(var i = 0; i < glitch_body_class.length; i++){
+			glitch_body_class[i].classList.remove('loading');
+			glitch_body_class[i].classList.add('imgloaded');
+		}
 	});
 }

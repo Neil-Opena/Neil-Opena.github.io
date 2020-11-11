@@ -299,6 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav {
   opacity: 1;
   visibility: visible;
+  height: fit-content;
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
@@ -498,9 +499,7 @@ section {
 }
 
 .about .image {
-  background: url(../img/me.jpg) center center no-repeat;
   background-size: cover;
-  min-height: 400px;
 }
 
 @media (max-width: 991px) {
@@ -521,6 +520,10 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.skills h2{
+  color: #ffff;
+}
+
 .skills .progress {
   height: 50px;
   display: block;
@@ -534,7 +537,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #2c4964;
+  color: #a4a4a4;;
 }
 
 .skills .progress .skill .val {
