@@ -371,7 +371,7 @@ section {
   content: '';
   position: absolute;
   display: block;
-  width: 50px;
+  width: 100px;
   height: 3px;
   background: #54cee2;
   bottom: 0;
@@ -521,7 +521,11 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills h2{
-  color: #ffff;
+  color: #ffffff;
+}
+
+.skills .section-title h2::after {
+  background: #ffffff;
 }
 
 .skills .progress {
@@ -629,6 +633,19 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+}
+
+.portfolio h2{
+  color: #ffffff;
+}
+
+.portfolio .section-title h2::after {
+  background: #ffffff;
+}
+
+
+.portfolio .glitch_project{
+  border-radius: 7px;
 }
 
 .portfolio #portfolio-flters {
@@ -822,6 +839,10 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0 0 0 0;
+}
+
+.modal{
+  z-index: 9999;
 }
 
 @media (max-width: 768px) {

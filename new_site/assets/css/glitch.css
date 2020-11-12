@@ -62,6 +62,23 @@
 	height: 50vh;
 }
 
+.glitch_project{
+	height: auto;
+	width: auto;
+}
+
+.glitch__img{
+	position: absolute;
+	top: calc(-1 * var(--gap-vertical));
+	left: calc(-1 * var(--gap-horizontal));
+	width: calc(100% + var(--gap-horizontal) * 2);
+	height: calc(100% + var(--gap-vertical) * 2);
+	background-color: var(--blend-color-1);
+	background-size: cover;
+	transform: translate3d(0,0,0);
+	background-blend-mode: var(--blend-mode-1);
+}
+
 .glitch_img_1{
 	background: url(../img/hero-neil.jpg) center no-repeat;
 	position: absolute;
@@ -77,15 +94,18 @@
 
 .glitch_img_2{
 	background: url(../img/me.jpg) center no-repeat;
-	position: absolute;
-	top: calc(-1 * var(--gap-vertical));
-	left: calc(-1 * var(--gap-horizontal));
-	width: calc(100% + var(--gap-horizontal) * 2);
-	height: calc(100% + var(--gap-vertical) * 2);
-	background-color: var(--blend-color-1);
-	background-size: cover;
-	transform: translate3d(0,0,0);
-	background-blend-mode: var(--blend-mode-1);
+}
+
+.project_1{
+	background: url(../img/projects/bar-raiser.png) center no-repeat;
+}
+
+.project_2{
+	background: url(../img/projects/pusox3.PNG) center no-repeat;
+}
+
+.project_3{
+	background: url(../img/projects/avatar.PNG) center no-repeat;
 }
 
 .glitch__img:nth-child(n+2) {
