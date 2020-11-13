@@ -108,6 +108,22 @@
 	background: url(../img/projects/avatar.PNG) center no-repeat;
 }
 
+.project_4{
+	background: url(../img/projects/stratego.PNG) center no-repeat;
+}
+
+.project_5{
+	background: url(../img/projects/taboo.PNG) center no-repeat;
+}
+
+.project_6{
+	background: url(../img/projects/cypher-gazer.PNG) center no-repeat;
+}
+
+.project_7{
+	background: url(../img/projects/crypt-analysis.PNG) center no-repeat;
+}
+
 .glitch__img:nth-child(n+2) {
 	opacity: 0;
 }
