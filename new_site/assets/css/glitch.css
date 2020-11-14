@@ -124,6 +124,22 @@
 	background: url(../img/projects/crypt-analysis.PNG) center no-repeat;
 }
 
+.project_8{
+	background: url(../img/projects/personal_site.PNG) center no-repeat;
+}
+
+.project_9{
+	background: url(../img/projects/datavilij.PNG) center no-repeat;
+}
+
+.project_10{
+	background: url(../img/projects/uno.jpg) center no-repeat;
+}
+
+.project_11{
+	background: url(../img/projects/hackhealth.png) center no-repeat;
+}
+
 .glitch__img:nth-child(n+2) {
 	opacity: 0;
 }
